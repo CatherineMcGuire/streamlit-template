@@ -1,3 +1,5 @@
-import streamlit as st
+from views.page1_view import page1_view
+from models.page1_model import Page1Model
 
-st.write("This is page 1")
+
+page1_view(Page1Model())
